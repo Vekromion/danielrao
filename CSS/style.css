@@ -6,10 +6,8 @@ nav {
     background-color: #005561 ;
     border-bottom-style: solid;
     border-color: #008fa3 ;
-    /*border-radius: 5px;*/
     padding: 5px;
     margin: 0 0 0 0;
-    /*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);*/
     display: flex;
     justify-content: space-between;
     color: white;
@@ -49,7 +47,6 @@ div.contact {
 }
 footer {
     background-color: #005561;
-    /*border-bottom: 5px solid black;*/
     padding: 18px;
     margin: 0 0 0 0;
     display: flex;
@@ -143,6 +140,10 @@ dl dt {
 .skills li::marker {
     color: #BA0C2F;
 }
+a {
+    color: white;
+}
+
 a:hover {
     color: #00A3AD;
 }
