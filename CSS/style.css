@@ -132,7 +132,13 @@ dl {
 dl dt {
     font-weight: bold;
 }
-
+.courses {
+    list-style-type: square;
+    text-align: center;
+}
+.courses li::marker {
+    color: #BA0C2F;
+}
 .skills {
     list-style-type: square;
     text-align: center;
