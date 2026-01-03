@@ -160,7 +160,7 @@ dl dt {
 
 .experience dt,
 .experience dd {
-  margin: 0;            /* kills default dd indent */
+  margin: 0;           
   padding: 0;
 }
 
@@ -170,6 +170,15 @@ a {
 
 a:hover {
     color: #00A3AD;
+}
+
+.section {
+  padding: 3rem 2rem;  
+}
+
+.leadership {
+  max-width: 1200px;
+  margin-inline: auto; 
 }
 
 .three-col {
@@ -228,6 +237,7 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
 
 .splash-address2 {
     color: #005561;
