@@ -147,9 +147,15 @@ dl dt {
     color: #BA0C2F;
 }
 .experience {
-    display: grid; 
-    grid-template-columns: auto auto;
-    justify-content: center;
+    column-count: initial;
+    columns: initial;
+
+    margin: 0;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem 3rem;
 }
 
 a {
