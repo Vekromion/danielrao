@@ -25,7 +25,7 @@ div.header {
     font-size: 100;
     
 }
-div.divider {
+div.divider { 
     width: 20px;
     height: 50px;
     transform: skew(-29deg);
