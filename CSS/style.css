@@ -146,6 +146,12 @@ dl dt {
 .skills li::marker {
     color: #BA0C2F;
 }
+.experience {
+    display: grid; 
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
 a {
     color: white;
 }
